@@ -260,7 +260,7 @@ nav {
 
 .right-side button {
     padding: 9px 9px;
-    background-color: #080A41;
+    background-color: transparent;
     border-radius: 5px;
     border: 1px solid white;
 }
@@ -310,7 +310,7 @@ nav {
 
 .newhead button {
     padding: 9px 9px;
-    background-color: #080A41;
+    background-color: transparent;
     border-radius: 5px;
     border: 1px solid white;
 }
