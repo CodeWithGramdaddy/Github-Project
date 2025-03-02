@@ -714,8 +714,8 @@ footer{
 }
 .lastline{
     display: flex;
-
     gap: 2.5em;
+    padding-bottom: 90px;
 }
 .lastline2{
     display: flex;
@@ -737,6 +737,41 @@ footer{
 }
 footer li a:hover{
     color: blue;
+}
+.bottomline{
+    background-color: #151B23;
+
+}
+.icondiv{
+    width: 85%;
+    margin: auto;
+
+}
+.downlogoo li a{
+    text-decoration: none;
+    
+    
+
+}
+.downlogoo ul a{
+    color: white;
+    text-decoration: none;
+}
+.downlogoo ul{
+    
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding: 20px 10px;
+    font-size: .8em;
+    color: white;
+    
+    
+}
+.downlogoo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -766,6 +801,9 @@ footer li a:hover{
     }
     .box11 {
         height: 400px;
+    }
+    .downlogoo ul{
+        flex-wrap: wrap;
     }
 }
 
@@ -848,6 +886,9 @@ footer li a:hover{
     }
     .sectdisplay h2{
         font-size: 1em;
+    }
+    .downlogoo{
+        flex-wrap: wrap;
     }
 
 }

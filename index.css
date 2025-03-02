@@ -698,6 +698,41 @@ nav {
     
     
 }
+.bottomline{
+    background-color: #151B23;
+
+}
+.icondiv{
+    width: 85%;
+    margin: auto;
+
+}
+.downlogoo li a{
+    text-decoration: none;
+    
+    
+
+}
+.downlogoo ul a{
+    color: white;
+    text-decoration: none;
+}
+.downlogoo ul{
+    
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding: 20px 10px;
+    font-size: .8em;
+    color: white;
+    
+    
+}
+.downlogoo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -772,6 +807,9 @@ nav {
 
     .sect4 p {
         text-wrap: wrap;
+    }
+    .downlogoo ul{
+        flex-wrap: wrap;
     }
 
 }
@@ -877,6 +915,9 @@ nav {
 
     .workfast {
         width: 100%;
+    }
+    .downlogoo{
+        flex-wrap: wrap;
     }
 
 

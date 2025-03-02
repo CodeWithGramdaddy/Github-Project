@@ -681,8 +681,8 @@ footer{
 }
 .lastline{
     display: flex;
-
     gap: 2.5em;
+    padding-bottom: 90px;
 }
 .lastline2{
     display: flex;
@@ -705,6 +705,41 @@ footer{
 footer li a:hover{
     color: blue;
 }
+.bottomline{
+    background-color: #151B23;
+
+}
+.icondiv{
+    width: 85%;
+    margin: auto;
+
+}
+.downlogoo li a{
+    text-decoration: none;
+    
+    
+
+}
+.downlogoo ul a{
+    color: white;
+    text-decoration: none;
+}
+.downlogoo ul{
+    
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding: 20px 10px;
+    font-size: .8em;
+    color: white;
+    
+    
+}
+.downlogoo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -719,6 +754,9 @@ footer li a:hover{
     header {
         background-color: #0D1117;
         padding: 15px;
+    }
+    .downlogoo ul{
+        flex-wrap: wrap;
     }
 }
 @media(max-width:1012px) {
@@ -825,6 +863,9 @@ footer li a:hover{
     }
     .section7 h1{
         font-size:2em ;
+    }
+    .downlogoo{
+        flex-wrap: wrap;
     }
 }
 
