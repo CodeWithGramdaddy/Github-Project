@@ -806,6 +806,18 @@ footer li a:hover {
     .card {
         grid-template-columns: repeat(2, 1fr);
     }
+    .sect4 {
+        width: 90%;
+        text-align: center;
+    }
+    .sect4 h3{
+        width: 100%;
+        font-size: 2em;
+
+    }
+    .sect4 h3 br{
+        display: none;
+    }
 
     .sect5 {
         grid-template-columns: repeat(2, 1fr);
@@ -860,13 +872,17 @@ footer li a:hover {
     .sec6-text {
         width: 85%;
     }
+    
+    .revv{
+        flex-direction: column-reverse;
+    }
 
     .sec9 {
         width: 80%;
     }
 
     .section11 {
-        width: 75%;
+        width: 85%;
         margin: auto;
 
     }
@@ -910,6 +926,43 @@ footer li a:hover {
     .box11 {
         width: 350px;
         height: 520px;
+    }
+    .sec6-text h2 br{
+        display: none;
+    }
+    .sec6-text h2{
+        width: 100%;
+        font-size: 1.4em;
+    }
+    .sec6-text p{
+        width: 100%;
+        font-size: 1em;
+    }
+    .sec6-text p br{
+        display: none;
+    }
+    .sec6img{
+        width: 100%;
+    }
+    .sect6{
+        width: 95%;
+    }
+    .sect7{
+        width: 95%;
+    }
+    .sect8{
+        width: 95%;
+        margin-top: -90px;
+    }
+    .sec8p p{
+        font-size: 1em;
+    }
+    .middle a{
+        
+        font-size: 1em;
+    }
+    .section11 h2{
+        font-size: 1.4em;
     }
 
 }
