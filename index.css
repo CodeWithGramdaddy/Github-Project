@@ -875,6 +875,9 @@ footer li a:hover {
     
     .revv{
         flex-direction: column-reverse;
+    } 
+    .sec8li .li1 em  br{
+        display: none  !important;
     }
 
     .sec9 {
@@ -949,6 +952,7 @@ footer li a:hover {
     }
     .sect7{
         width: 95%;
+        margin: -70px auto;
     }
     .sect8{
         width: 95%;
@@ -987,5 +991,10 @@ footer li a:hover {
     .sect1 h1 {
         font-size: 1.5em;
     }
+    footer{
+        width: 90%;
+        margin: 120px auto;
+    }
 
 }
+
